@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="utf-8">
+<title>Fale Conosco</title>
+      <link rel="stylesheet" href="css/form.css"/>
+      <link rel="stylesheet" type="text/css" href="estilo.css" />
+      <link rel="stylesheet" type="text/css" href="fale-conosco.css" />
+      <script  language="javascript" src="funcoes.js"></script>
+      <script>
+         function calc_total(){
+         var qtd =parseInt( document.getElementById('cQtd').value);
+          tot=qtd*197;	
+          document.getElementById('cTot').value=tot;
+		 <!-- essa funcao vai ser chamada la no  inicio do meu formulario mas so sera exibida no campo de total-->
+     }
+</script>
+</head>
+
+<body>
+  
+<div id="interface">
+<header id="cabecalho">
+	<img id="icone1" src="imagem/logo-3.jpg"/>
+   <hgroup>
+   
+        <h2></h2>
+   </hgroup>
+
+<img id="icone"/>
+
+<nav id="menu">
+      <h1>Menu Principal</h1>
+   <ul>
+      <li onmouseover="mudaFoto('imagem/home.png')" onmouseout="mudaFoto('imagem/contato.png')"><a href="home.html"><b>Home<b></li>
+      <li onmouseover="mudaFoto('imagem/especificacoes.png')" onmouseout="mudaFoto('imagem/contato.png')"><a href="servicos.html">Serviços</a></li>
+      <li onmouseover="mudaFoto('imagem/fotos.png')" onmouseout="mudaFoto('imagem/contato.png')"><a href="galeria.html">Galeria</a></li>
+      <li onmouseover="mudaFoto('imagem/contato.png')" onmouseout="mudaFoto('imagem/contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+   </ul>
+</nav>
+</header>
+
+
+<article id="noticia-principal">
+<header id="cabeçalho-artigo">
+     <hgroup>
+          <h3>Fale Conosco > Contato</h3>
+   
+          <h2>Contato</h2>
+     </hgroup>
+</header>
+
+<section id="corpo-full">
+<aside id="lateral">
+
+<form class="formulario" method="post"> 
+                
+        <div class="field">
+            <label for="nome"><b>Nome:<b></label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+        
+        <div class="field">
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="ctelefone" class="form-control phone-ddd-mask" placeholder="Ex.: (00) 0000-0000">
+        </div>
+
+        <div class="field">
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>        
+        <div class="field radiobox">
+            <span>Deseja receber nossas novidades?</span>
+            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+        </div>
+        <div class="field">
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div>
+        
+        <input type="submit" name="acao" value="Enviar"><b><b>
+
+
+</form>
+</section>
+</aside>
+
+<form class="formulario1" method="post"> 
+
+        <div class="field1">
+            <label for="telefone"><u><b>Telefone Principal:</u></label>
+          <a href="https://web.whatsapp.com/send?phone=559991103581">(92) 99110-3581</a>
+        </div>
+        
+      <div class="field1">
+            <label for="telefone"><u>Telefone Recepção:</u> (92) 99104-0786</label>
+        </div>
+ 
+        <div class="field1">
+            <label for="email"><u>E-mail:</u> hoteldasaguas_01@hotmail.com</label>
+        </div>   
+
+      <div class="field1">
+            <label for="endereço"><u>Endereço:</u> Avenida Ademar Grana Viana, 516, Bairro: Cajual</label>
+        </div>    
+     <div class="field1">
+            <label for="cidade"><u>Itapiranga</u> - Amazonas - Brasil </label>
+        </div>        
+
+      <div class="field1">
+            <label for="cep"><u>CEP:</u> 69120-000 </label>
+        </div>    
+</form>
+
+</article>
+
+<figure class= "foto">
+    <img id="icone7" src="imagem/zap3.jpg">
+</figure>
+
+<footer id="rodape">
+
+<p>2021 - Hotel das Águas - Avenida Ademar Grana Viana, 516, Cajual Itapiranga - Amazonas. <br>
+&nbsp<a href="http://facebook.com/HOTELDASAGUAS" target="_blank">Facebook</a> | Copyright &copy;</p>
+</footer>
+</div>
+</body>
+</html>

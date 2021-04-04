@@ -1,0 +1,136 @@
+@charset "utf-8"; /* para linguagem com pontuação*/
+/* neste espaço vai colocar importaçoes que venha da internet*/
+
+
+div#interface1{                               /* todo o site esta dentro dessa div menos o menu aqui mexo como fundo do site*/
+background-color: white;                      /* cor de fundo dentro da div*/
+width: 1180px;                                    /*largura do texto NA HOME*/
+margin: -20px auto 0px auto;                     /*tamanho das margens, -20px auto 0px auto - cima direita baixo esquerda */
+box-shadow: 0px 0px 100px rgba(0,0,0,.5);                /*sombreamento*/
+padding: 50px;   
+                                   /* espaço interno*/
+}
+
+
+aside#lateral{
+	display: block;
+	width: 710px;
+	float: left;
+}
+
+section#corpo-full{
+	display: block;
+	width: 690px;
+	float: left;
+	margin: -10px -110px 10px auto;
+}
+
+.formulario{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 17px 0;
+
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.0em;
+    display: block;
+    width: 100%;
+    color: rgb(25,25,112);
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+    color: rgb(25,25,112);
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 50px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+
+}
+input#nao{
+    margin-left: 30px;
+    margin: 10px 0px 10px 10px;
+}
+textarea{
+    line-height: 20px;
+    padding: 5px;
+    height: 130px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    color: rgb(25,25,112);
+    font-weight: bold;/*cor negrito do botão*/
+    font-size: 1.2em;
+}
+
+.formulario1{
+    width: 800px;
+    padding: 170px;
+    color: rgb(25,25,112);
+    
+}
+.formulario1 p{
+    width: 300%;
+    font-size: 1.5em;
+}
+.field1{
+    width: 200%;
+    margin: 18px 0;
+    font-size: 18px;
+}
+
+
+article#noticia-principal h2{
+font-size: 25pt;                                     /* tamanho da fonte*/
+color: white;                                     /* cor da fonte*                          /* cor de fundo*/
+padding: 5px 0px 5px 10px;                            /* espaçamento entre eles: cima, direita, baixo, esquerda*/
+margin: 10px 0px 10px 0px;     
+background-color:#191970                          /* cor de fundo*/
+                         /* margem: cima, direita, baixo, esquerda*/
+}
+
+img#icone7{
+                                     /* posiçao das imagens do menu home foto etc...*/
+position: absolute;                                                 /* posiçao da imagem*/
+left: 990px;                                                       /* a esquerda*/
+top: 575px;  
+height: 20px;   
+}
+/*textarea{
+    width: 48%;
+    height: 120px;
+    margin: 20px 30px 10px 30px;
+    
+}
+
+
+/*&nbsp é o espaco*/
+
+/* id="" o id serve para fazermos as configuraçoes css*/

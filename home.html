@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<link>
+<meta charset="utf-8">
+<title>Hotel das Aguas</title>
+<link rel="stylesheet" type="text/css" href="estilo.css" />
+<link rel="stylesheet" href="galeria.css"/>
+</head>
+
+<script src="funcoes.js"></script><!-- muda o home para dinamico quando passar o mouse mudar a imagem-->
+
+<body>
+
+<div id="interface">
+
+<header id="cabecalho">
+<hgroup>
+<h1></h1>
+<h2></h2>
+</hgroup>
+
+<img id="icone" src="imagem/home.png"/>
+<img id="icone1" src="imagem/logo-3.jpg"/>
+
+<nav id="menu">
+<h1>Menu Principal</h1>
+<ul>
+<li onmouseover="mudaFoto('imagem/home.png')" onmouseout="mudaFoto('imagem/home.png')"><a href="home.html"><b>Home<b></li>
+<li onmouseover="mudaFoto('imagem/especificacoes.png')" onmouseout="mudaFoto('imagem/especificacoes.png')"><a href="servicos.html">Serviços</a></li>
+<li onmouseover="mudaFoto('imagem/fotos.png')" onmouseout="mudaFoto('imagem/especificacoes.png')"><a href="galeria.html">Galeria</a></li>
+<li onmouseover="mudaFoto('imagem/contato.png')" onmouseout="mudaFoto('imagem/especificacoes.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+</ul>
+</nav>
+
+</header>
+
+<article id="noticia-principal">
+<header id="cabecalho-artigo">
+<hgroup>
+<h3></h3> 
+<h3></h3>
+</hgroup>
+</header>
+
+<figure class="foto-legenda">
+<img src="imagem/frente3.jpg">
+<figcaption>
+<p>Bem-vindo ao Hotel das Águas</p>
+
+
+</figcaption>
+</figure>
+</article>
+
+
+<figure class="foto-legenda2">
+<figcaption>
+
+ <p class="um">  Conheça o município brasileiro localizado na Região Metropolitana de Manaus, com o nome de origem indígena que significa "pedra vermelha".</p>
+ <p class="um">Possui uma área de 4.249,629 km². Banhada tanto pelo Rio Urubu, faz fronteira direta com Silves, bem como é próxima de São Sebastião do Uatumã. </p>
+</figcaption>
+</figure>
+
+<header id="sub-titulo">
+<hgroup>
+<h4>Pontos Turísticos</h4>
+</hgroup>
+</header>
+<ul id="album-fotos">
+<li id="foto07"><span>Gruta Rainha da Paz</span></li>
+<li id="foto08"><span>Itapiranga - Vista Aérea</span></li>
+<li id="foto09"><span>Praça Sagrado Coração de Jesus</span></li>
+<li id="foto10"><span> Balneario Municipal Igarapé Grande</span></li>
+</ul>
+
+
+<footer id="rodape">
+<p>2021 - Hotel das Aguas - Avenida ademar Grana Viana, 516, Cajual Itapiranga-AM. <br>
+&nbsp<a href="http://facebook.com/HOTELDASAGUAS" target="_blank">Facebook</a> | Copyright &copy;</p>
+</footer>
+</div>
+</body>
+</html>

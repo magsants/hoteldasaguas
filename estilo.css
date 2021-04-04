@@ -1,0 +1,219 @@
+@charset "utf-8"; /* para linguagem com pontuação*/
+/* neste espaço vai colocar importaçoes que venha da internet*/
+@font-face{
+font-family: Georgia, "Times New Roman";                             /* nome da fonte que esta na pasta imagem*/
+src: url("imagem/bubblegum-sans-regular.otf");                      /*fonte que esta na pasta imagem*/
+}
+
+p{                                                         /*formatando o conteudo da pagina*/
+text-align: justify;                                             /* todos os texto justificado dentro do <p> paragrafo*/
+text-indent: 30px;
+line-height: 1.10;					                                           /* tamanho da margem dentro do <p> paragrafo*/
+}
+
+p.um{                                                         /*formatando o conteudo da pagina*/
+text-align: justify;                                             /* todos os texto justificado dentro do <p> paragrafo*/
+text-indent: 0px;
+line-height: 1.5;
+font-size: 20px;
+color: rgb(25,25,112);					                                           /* tamanho da margem dentro do <p> paragrafo*/
+}
+
+a{
+color: #606060;                                                         /* cor da letra*/
+text-decoration: none;                                                 /* nao vai ter sublinhado*/
+}
+
+a:hover{
+text-decoration: underline;                                            /* passar o mause por cima ficar sublinhado*/
+}
+
+header#cabecalho-artigo h1{
+font-family: Georgia, "Times New Roman"; /* tipo de fonte: com fonte apartir do site*/
+font-size: 20pt; /* tamanho da fonte*/
+color: black; /* cor da letra*/
+margin-bottom: 0px; /* margem pra baixo*/
+margin-top: 0px; /* margem pra cima*/
+}
+
+.direita{
+text-align: right; /* texto a direita devido a classe*/
+}
+
+header#cabecalho h3{
+font-family: Georgia, "Times New Roman"; /* FonteLogo esta puxando da fonte da parte de cima, tipo de fonte da letra*/
+font-size: 20pt; /* tamanho da fonte*/
+color: rgb(25,25,112); /* cor da fonte*/
+text-shadow: 1px 5px 1px rgba(0,0,0,.6); /* deslocamento, vertical, espalhamento, cor com transparencia*/
+padding: 10px; /* espaco interno*/
+margin-bottom: 10px; /* margin-bottom pra configura a margem abaixo*/
+}
+
+header#sub-titulo h4{
+font-family: Georgia, "Times New Roman"; /* FonteLogo esta puxando da fonte da parte de cima, tipo de fonte da letra*/
+font-size: 20pt; /* tamanho da fonte*/
+color:  rgb(25,25,112); /* cor da fonte*/
+text-shadow: -50px 0px -50px 0px rgba(0,0,0,.0); /* deslocamento, vertical, espalhamento, cor com transparencia*/
+padding: 40px; /* espaco interno*/
+margin: -18px 0px 0px 0px;
+}
+
+article#noticia-principal h2{
+font-size: 50pt; /* tamanho da fonte*/
+color: #606060; /* cor da fonte*/
+background-color:#191970; /* cor de fundo*/
+padding: 10px 50px 15px 10px; /* espaçamento entre eles: cima, direita, baixo, esquerda*/
+margin: 10px 100px 10px 10px; /* margem: cima, direita, baixo, esquerda*/
+}
+
+header#cabecalho h2{                             /*estrutura que inicia a formatcao de nome da pessoa*/
+font-family: Georgia, "Times New Roman";         /* tipo de fonte*/ 
+color: #888888;                                /* cor da fonte*/
+font-size:50pt;                               /*tamanho da fonte*/
+padding: 15px;                                 /* espaco interno*/
+margin-top: 50px;                             /* margin-top pra configura a margem de cima*/
+}
+
+
+body{
+background-color: #dddddd;                                                      /* cor de fundo do body*/
+color: rgba(0,0,0,5);                                                     /* cor da letra com transparencia do rgba*/
+font-family: Georgia, "Times New Roman";                                    /* tipo de fonte*/
+}
+
+
+div#interface{                               /* todo o site esta dentro dessa div menos o menu aqui mexo como fundo do site*/
+background-color: white;                      /* cor de fundo dentro da div*/
+width: 1180px;                                    /*largura do texto NA HOME*/
+margin: -20px 0px -10px 20px;                     /*tamanho das margens, -20px auto 0px auto - cima direita baixo esquerda */
+box-shadow: 0px 0px 100px rgba(0,0,0,.5);                /*sombreamento*/
+padding: 50px;                                       /* espaço interno*/
+}
+/*header#cabecalho com a logo */  
+header#cabecalho img#icone{                                          /* posiçao das imagens do menu home foto etc...*/
+position: absolute;                                                 /* posiçao da imagem*/
+left: 1000px;                                                       /* a esquerda*/
+top: 100px;                                                          /* ALTURA DAS GIFS DAS PAGINASno topo*/
+
+}
+
+header#cabecalho img#icone1{                                          /* posiçao das imagens do menu home foto etc...*/
+position: absolute;                                                 /* posiçao da imagem*/
+left: 450px;                                                       /* a esquerda*/
+top: 10px;                                                          /* ALTURA DAS GIFS DAS PAGINASno topo*/
+
+}
+/*header#  cabecalho com a logo{                                   /* divisão*/
+header#cabecalho{
+border-bottom: 0px #606060 solid;                                      /* borda de baixo: espessura, cor  e tipo*/
+height: 180px;                                                     /* altura do cabecalho*/
+/*background: url("imagem/logo_pousa.png") no-repeat 90px -10px;     /* iamgem de fundo, sem repetiçao, deslocamento lateral, vertical*/*/
+background-color:#191970                          /* cor de fundo*/
+
+}
+
+
+/* Formatação para imagem*/
+
+figure.foto-legenda{
+position: relative;                          /* posiçao relativa ao codigo html onde ele foi colocado*/
+border: 8px solid white;                   /*borda: largura da borda, tipo de borda, cor da borda*/
+box-shadow: 1px 1px 4px black;              /*sombra: deslocamento horiz, vert, espalhamento e cor*/
+}
+
+figure.foto-legenda img{ 
+width: 100%;                        /* altura*/
+height: 100%;                     /* largura*/
+}
+
+figure.foto-legenda figcaption{
+position: absolute;                             /* posiçao dentro da borda*/
+font-size: 40pt;   
+top:0px;                                       /* vai para o topo dentro da imagem com a ajuda da posiçao relativa do figure.foto-legenda*/
+background-color: rgba(0,0,0,.4);                 /* dando uma transparencia usando o preto*/
+color: white;                                    /* legenda de cor branca - as letras*/
+width: 100%;                                  /* tamanho pra ocupar toda a borda da imagem*/
+height: 100%;                                /* tamanho pra ocupar toda a borda da imagem*/
+padding: 0px                                   /* espaço dentro da legenda*/
+box-sizing: border-box;                           /* cria um box dentro da borda*/
+opacity: 0;                                  /* opacidade, neste caso vai fazer sumir a legenda*/
+transition: opacity 1s;                           /* efeito de transiçao para opacidade*/
+}
+
+figure.foto-legenda:hover figcaption{
+opacity: 4;                                      /* 100% de opacidade quando passar o mouse por cima*/
+}
+
+
+/* Formatação do menu */
+nav#menu{
+display: block;                                   /* faz com que o quadrado(bloco) flutue*/
+}
+
+nav#menu ul{
+position: absolute;                                   /* faz com que o bloco flutue livre pelo site*/
+top: 150px;                                             /* com o bloco flutuando entao precisa colocar esses paramentros,altura*/
+left: 300px; 
+color: rgb(25,25,112);
+                                               /* tamanho a esquerda*/
+}
+
+nav#menu li{ 
+display: inline-block;                               /*alinhamento lado a lado*/
+background-color: #dddddd;                             /*cor do fundo*/
+padding: 20px;                                      /*tamanho dentro do quadro*/
+margin: 20px 0px 20px 20px;                                             /*espaço entre os quadros*/
+transition: background-color 1s;                        /* tempo de transição nos que sao <li>*/
+border-radius:5px;  
+font-size: 18px;
+color: #191970;
+}
+
+nav#menu li:hover{
+background-color: #606060;                      /* pra quando passar o mouse por cima mudar a cor*/
+border-radius:5px;
+color: rgb(25,25,112);
+}
+
+nav#menu h1{
+display: none;                                    /* faz com que esconda o h1, neste caso o menu principal*/
+}
+
+nav#menu a{                                            /*inicia a formatcao dos menus home,fots.....*/
+color:blue;                                           /* cor da letra*/
+text-decoration: none;                                     /* passar o mouse por cima na letra deixa sublinhado*/
+color: rgb(25,25,112);
+
+}
+
+nav#menu a:hover{                                         /*ainda estou na formatcao dos menus home,fots.....*/
+color: rgb(25,25,112);                                        /* vai deixar a cor da letra branca por causa da cor escolhida*/
+text-decoration: underline;                            /* deixar em cima da letra sublinhado*/
+}
+
+/* tabelas dos texto que são titulos */
+
+article#noticia-principal h2{
+font-size: 25pt;                                     /* tamanho da fonte*/
+font-family: Georgia, "Times New Roman";
+color: white;                                     /* cor da fonte*/
+background-color:#191970                          /* cor de fundo*/
+padding: 5px 0px 5px 10px;                            /* espaçamento entre eles: cima, direita, baixo, esquerda*/
+margin: 10px 0px 10px 0px;                              /* margem: cima, direita, baixo, esquerda*/
+text-align: center;   
+}
+
+
+footer#rodape{
+clear: both;                                                   /* vai limpa a divisao, limpe a configuraçao dos dois lados*/
+border-top: 5px solid #606060;                                /* a linha de baixo fazendo com que fique acima do footer com o border-top, espessura, tipo e cor*/
+}
+
+footer#rodape p{
+text-align: center;                              /* no footer rodade em <p> sera centralizado*/
+font-family: Georgia, "Times New Roman";
+}
+
+/*&nbsp é o espaco*/
+
+/* id="" o id serve para fazermos as configuraçoes css*/

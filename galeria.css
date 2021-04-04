@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+ul#album-fotos{
+width: 800px;
+margin: 40 auto;
+padding: 20px ;
+overflow: hidden;
+list-style: none;
+}
+
+ul#album-fotos li{
+float: right; ;
+width: 200px;
+height: 230px;
+margin: 50px;
+border: 6px solid white;
+background-color: #ffffff;
+box-shadow: 1px 1px 10px rgba(0,0,0,.4);
+-webkit-transition: all .8s ease-in;
+}
+
+ul#album-fotos li#foto01 {
+background: url('imagem/parte2.png') no-repeat;
+background-position: 50% 50%; /*muda a posiçao: lateral, vertical partir do meio*/
+background-color: #ffffff; 
+background-size: 410px 410px;
+}
+ul#album-fotos li#foto01:hover{
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#album-fotos li:hover {
+-webkit-transform: scale(1.9);
+}
+
+ul#album-fotos li span{/* inicia da formataçao das lgendas para as fotos da galeria*/
+opacity: 0;
+color: #ffffff;
+text-shadow: 1px 1px 1px #000000;
+background-color: rgba(0,0,0,.3);
+font-size: 9pt;
+line-height: 390px;
+padding: 5px;
+}
+
+ul#album-fotos li:hover span{
+opacity: 1;
+}
+
+ul#album-fotos li#foto02 {
+background: url('imagem/parte1.jpg') no-repeat;
+background-position: 50% 50%; /*muda a posiçao: lateral, vertical*/
+background-color: #ffffff; 
+background-size: 410px 410px;
+}
+ul#album-fotos li#foto02:hover{
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto03 {
+background: url('imagem/parte4.jpg') no-repeat;
+background-position: 50% 50%; /*muda a posiçao: lateral, vertical*/
+background-color: #ffffff; 
+background-size: 400px 400px;
+}
+ul#album-fotos li#foto03:hover{
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto04 {
+background: url('imagem/restaurante2.jpg') no-repeat;
+background-position: 50% 50%; /*muda a posiçao: lateral, vertical*/
+background-color: #ffffff; 
+background-size: 400px 400px;
+}
+ul#album-fotos li#foto04:hover{
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05 {
+background: url('imagem/parte6.jpg') no-repeat;
+background-position: 50% 50%; /*muda a posiçao: lateral, vertical*/
+background-color: #ffffff; 
+background-size: 400px 400px;
+}
+ul#album-fotos li#foto05:hover{
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06 {
+background: url('imagem/parte7.jpg') no-repeat;
+background-position: 50% 50%; /*muda a posiçao: lateral, vertical*/
+background-color: #ffffff; 
+background-size: 400px 400px;
+}
+ul#album-fotos li#foto06:hover{
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto07 {
+background: url('imagem/rainha1.jpg') no-repeat;
+background-position: 50% 50%; /*muda a posiçao: lateral, vertical*/
+background-color: #ffffff; 
+background-size: 400px 400px;
+}
+ul#album-fotos li#foto07:hover{
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto08 {
+background: url('imagem/itapiranga.jpg') no-repeat;
+background-position: 50% 50%; /*muda a posiçao: lateral, vertical*/
+background-color: #ffffff; 
+background-size: 400px 400px;
+}
+ul#album-fotos li#foto08:hover{
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+
+ul#album-fotos li#foto09 {
+background: url('imagem/parque.jpg') no-repeat;
+background-position: 50% 50%; /*muda a posiçao: lateral, vertical*/
+background-color: #ffffff; 
+background-size: 400px 400px;
+}
+ul#album-fotos li#foto09:hover{
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto10 {
+background: url('imagem/balneario.jpg') no-repeat;
+background-position: 50% 50%; /*muda a posiçao: lateral, vertical*/
+background-color: #ffffff; 
+background-size: 300px 300px;
+}
+ul#album-fotos li#foto10:hover{
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+article#noticia-principal h2{
+font-size: 25pt;                                     /* tamanho da fonte*/
+color: white;                                     /* cor da fonte*                          /* cor de fundo*/
+padding: 5px 0px 5px 10px;                            /* espaçamento entre eles: cima, direita, baixo, esquerda*/
+margin: 10px 0px 10px 0px;     
+background-color:#191970                          /* cor de fundo*/
+                         /* margem: cima, direita, baixo, esquerda*/
+}

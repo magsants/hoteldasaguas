@@ -1,0 +1,86 @@
+/* <br> é para quebra de linha*/
+
+/* &nbsp; é para espacamento*/
+
+/* <h1></h1> titulo
+	<h2></h2> subtitulo 
+	<p></p> paragrafo*/
+	
+/* <div></div> é uma divisao*/
+
+/* <hgroup></hgroup> usado para grupo de titulos, é semantico*/
+
+/* <header></header> usado para cabecalho*/
+
+/* <wbr/> usado pra quebra com ifen ex: super-humano
+	super-<wbr/>humano ou superhumano fica super<wbr/>humano
+	muito usado para quebra de sites*/
+	
+/* &shy; para fica com ifen na separação*/
+
+/* <b></b> negrito*/
+
+/* <i></i> italico*/
+
+/* <em></em> enfase(italico semantico)*/
+
+/* <u></u> sublinhado*/
+
+/* <s></s> ou <del></del> riscado*/
+
+/* background-image: url(fundo.jpg) é para colocar imagens no fundo*/
+
+
+/* Formato para imagens*/
+
+/* <figure></figure> é pra resultado semantico da imagem*/
+
+/* <figcaption></figcaption> para legenda de imagem*/
+
+/* <link rel="stylesheet" type="text/css" href="estilo.css" /> para o html
+chama o css*/
+
+/* <figure class="foto-legenda">*/
+
+/* hover: vai dispara uma configuração especifica, efeito de para passar o mouse por cima*/
+
+/* <nav></nav> é um menu de navegaçao*/
+
+/* <ol></ol> lista ordenada, temos os type=1, a, A, i, I, temos start=3, o start so aceita numero*/
+
+/* <ul></ul> lista nao ordenada, ou demarcadores, temos o type=sqare, circle e o padrao disc*/
+
+/* no caso de link com endereço usa-se o <a href></a> ex:
+ <a href="https://glass.google.com", neste caso vai abrir na propria aba
+ <a href="https://glass.google.com" target="_blank" ira abrir em outra aba*/
+ 
+/* <section></section> é o corpo da minha sessao*/
+
+/* <aside></aside> é o meu conteudo lateral*/
+
+/* <footer></footer> é o meu rodapé*/
+
+/* <table></table> pra chamar tabela*/
+
+/* <caption></caption> é o titulo dentro da tabela*/
+
+/* <tr></tr> sao as linhas*/
+
+/* <td></td> sao as celulas onde fica a informaçao*/
+
+/* rowspan="2" para ocupar duas linhas*/
+
+/* class: define a formataçao para varios objetos, definido por um ponto ex: img.img-dir*/
+
+/* <article></article> um artigo que componhe varios artigos*/
+
+/* <iframe></iframe> inseri uma pagina dentro de outra pagina ex: <iframe src="google-glass.html></iframe>"*/
+ 
+/* <map></map> mapa da imagem, dai so especifica no endereco
+ ex: <img src="imagem/glass-esquema-marcado.jpg" usemap="#meumapa"/>
+     <map name="meumapa"> 
+	 </map> */
+	 
+/* area shape="rect" coords="179,202,270,260" href"google-glass.html#tela" target="janela" 
+ o area shape vai ficar dentro do <map>*/
+

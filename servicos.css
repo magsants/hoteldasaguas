@@ -1,0 +1,123 @@
+@charset "utf-8"; /*para linguagem com pontuação*/
+/* neste espaço vai colocar importaçoes que venha da internet*/
+@font-face{
+font-family: Georgia, "Times New Roman";                             /* nome da fonte que esta na pasta imagem*/
+src: url("imagem/bubblegum-sans-regular.otf");                      /*fonte que esta na pasta imagem*/
+}
+
+figure.foto-legenda{
+position: relative;                          /* posiçao relativa ao codigo html onde ele foi colocado*/
+border: 5px solid white;                   /*borda: largura da borda, tipo de borda, cor da borda*/
+box-shadow: 1px 1px 4px black;              /*sombra: deslocamento horiz, vert, espalhamento e cor*/
+
+}
+
+figure.foto-legenda img{ 
+width: 100%;                        /* altura*/
+height: 100%; 
+
+                    /* largura*/
+}
+
+figure.foto-legenda figcaption{
+position: absolute;                             /* posiçao dentro da borda*/
+font-size: 40pt;   
+top:0px;                                       /* vai para o topo dentro da imagem com a ajuda da posiçao relativa do figure.foto-legenda*/
+background-color: rgba(0,0,0,.4);                 /* dando uma transparencia usando o preto*/
+color: white;                                    /* legenda de cor branca - as letras*/
+width: 100%;                                  /* tamanho pra ocupar toda a borda da imagem*/
+height: 100%;                                /* tamanho pra ocupar toda a borda da imagem*/
+padding: 50px                                   /* espaço dentro da legenda*/
+opacity: 0;                                  /* opacidade, neste caso vai fazer sumir a legenda*/
+transition: opacity 1s;  
+                         /* efeito de transiçao para opacidade*/
+}
+
+figure.foto-legenda:hover figcaption{
+opacity: 4;                                      /* 100% de opacidade quando passar o mouse por cima*/
+
+}
+
+
+header#artigo h3{                                 /* formatando o nome  Tecnoloa e informçoes*/
+font-size: 19pt;                                          /* tamanho da fonte*/
+color: black;                                          /* cor da letra*/
+
+}
+
+img#icone2{
+                                     /* posiçao das imagens do menu home foto etc...*/
+position: absolute;                                                 /* posiçao da imagem*/
+left: 400px;                                                       /* a esquerda*/
+top: 1120px;  
+height: 100px;   
+}
+
+img#icone3{
+                                     /* posiçao das imagens do menu home foto etc...*/
+                                          /* posiçao da imagem*/
+left: 2000px;                                                       /* a esquerda*/
+top: 1000px;                                   /* borda de baixo: espessura, cor  e tipo*/
+height: 100px;   
+}
+img#icone4{
+                                     /* posiçao das imagens do menu home foto etc...*/
+position: absolute;                                                 /* posiçao da imagem*/
+left: 610px;                                                       /* a esquerda*/
+top: 1120px;  
+height: 100px;   
+}
+
+img#icone5{
+                                     /* posiçao das imagens do menu home foto etc...*/
+position: absolute;                                                 /* posiçao da imagem*/
+left: 810px;                                                       /* a esquerda*/
+top: 1120px;  
+height: 100px;    
+}
+
+img#icone6{
+                                     /* posiçao das imagens do menu home foto etc...*/
+position: absolute;                                                 /* posiçao da imagem*/
+left: 1030px;                                                       /* a esquerda*/
+top: 1120px;  
+height: 100px;    
+}
+
+.field label{ 
+    font-size: 1.0em;
+    display: table;
+    margin: -15px 150px 0px 70px; /*margem da labale restaurante*/
+    color: rgb(25,25,112);
+    width: 30%;
+    text-align: right;
+  
+}
+
+.field1 label{
+  margin: -20px 550px 0px 560px; 
+    font-size: 1.0em;
+    display: block;
+    color: rgb(25,25,112);
+}
+
+.field2 label{
+    margin: -20px 550px 0px 560px; 
+    font-size: 1.0em;
+    display: block;
+    color: rgb(25,25,112);
+}
+
+.field3 label{
+    margin: -20px 550px 0px 720px; 
+    font-size: 1.0em;
+    display: block;
+    color: rgb(25,25,112);
+}
+.field4 label{
+    margin: -20px 550px 0px 960px; 
+    font-size: 1.0em;
+    display: block;
+    color: rgb(25,25,112);
+    text-align: center;
+}

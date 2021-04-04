@@ -1,0 +1,6 @@
+background-color = fundo;
+color = cor da letra
+background-image: url("fundo.jpg"); = para imagem de fundo
+<img src="imagem/glass-oculos-preto-peq.png" /> = para adicionar imagem
+
+<body background="imagem/goku.jpg"> = imagem de fundo
